@@ -661,21 +661,23 @@ void setPcmCallbackEnable(YouMeCallBackInterfacePcm callback, int flag)；
 
 * **相关回调接口**
 
-  ```
+ ```
   //pcm回调接口位于YouMeCallBackInterfacePcm
   //以下3个回调分别对应于3种类型的音频pcm回调
   //开启后才会有
   //远端数据回调
+  
   //channelNum:声道数
   //samplingRateHz:采样率
   //bytesPerSample:采样深度
   //data:pcm数据buffer
+ 
 void onPcmDataRemote(int channelNum, int samplingRateHz, int bytesPerSample, byte[] data);
 //录音数据回调
 void onPcmDataRecord(int channelNum, int samplingRateHz, int bytesPerSample, byte[] data);
 //远端和录音的混合数据回调
 void onPcmDataMix(int channelNum, int samplingRateHz, int bytesPerSample, byte[] data);
-  ```
+ ```
 
 ## 获取变声音调
 
