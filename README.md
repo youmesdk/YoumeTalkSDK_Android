@@ -328,4 +328,6 @@ public  class YouMeEvent {
 ### 备注：
 [详细接口介绍可查看“Talk SDK for Android API接口手册.md”文档](https://github.com/youmesdk/YoumeTalkSDK_Android/blob/master/Talk%20SDK%20for%20Android%20API%E6%8E%A5%E5%8F%A3%E6%89%8B%E5%86%8C.md)
 
+Talk SDK常见问题->[TALK FAQ](https://github.com/youmesdk/wiki/blob/master/YoumeTalk_FAQ.md)
+
 实际Demo可点击此处下载->[Talk Demo for Android](https://github.com/youmesdk/YoumeTalkDemo_Android)
